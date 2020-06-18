@@ -26,7 +26,7 @@ let DATE = [
   { class: '日期和时间', desc: '', url: '', fName: 'WEEKNUM' },
   { class: '日期和时间', desc: '', url: '', fName: 'WORKDAY' },
   { class: '日期和时间', desc: '', url: '', fName: 'WORKDAY.INTL' },
-  { class: '日期和时间', desc: '', url: '', fName: 'YEARFRAC' }
+  { class: '日期和时间', desc: '', url: '', fName: 'YEARFRAC' },
 ]
 let ENGINEERING = [
   { class: '工程', desc: '', url: '', fName: 'BESSELI' },
@@ -82,7 +82,7 @@ let ENGINEERING = [
   { class: '工程', desc: '', url: '', fName: 'IMTAN' },
   { class: '工程', desc: '', url: '', fName: 'OCT2BIN' },
   { class: '工程', desc: '', url: '', fName: 'OCT2DEC' },
-  { class: '工程', desc: '', url: '', fName: 'OCT2HEX' }
+  { class: '工程', desc: '', url: '', fName: 'OCT2HEX' },
 ]
 let LOGICAL = [
   { class: '逻辑', desc: '', url: '', fName: 'AND' },
@@ -93,7 +93,7 @@ let LOGICAL = [
   { class: '逻辑', desc: '', url: '', fName: 'NOT' },
   { class: '逻辑', desc: '', url: '', fName: 'OR' },
   { class: '逻辑', desc: '', url: '', fName: 'TRUE' },
-  { class: '逻辑', desc: '', url: '', fName: 'XOR' }
+  { class: '逻辑', desc: '', url: '', fName: 'XOR' },
 ]
 let TEXT = [
   { class: '文本', desc: '', url: '', fName: 'ASC' },
@@ -137,12 +137,12 @@ let TEXT = [
   { class: '文本', desc: '', url: '', fName: 'UNICODE' },
   { class: '文本', desc: '', url: '', fName: 'UPPER' },
   { class: '文本', desc: '', url: '', fName: 'VALUE' },
-  { class: '文本', desc: '', url: '', fName: 'WIDECHAR' }
+  { class: '文本', desc: '', url: '', fName: 'WIDECHAR' },
 ]
 let WEB = [
   { class: '网络', desc: '', url: '', fName: 'ENCODEURL' },
   { class: '网络', desc: '', url: '', fName: 'FILTERXML' },
-  { class: '网络', desc: '', url: '', fName: 'WEBSERVICE' }
+  { class: '网络', desc: '', url: '', fName: 'WEBSERVICE' },
 ]
 let CUBE = [
   { class: '多维数据集', desc: '', url: '', fName: 'CUBEKPIMEMBER' },
@@ -151,7 +151,7 @@ let CUBE = [
   { class: '多维数据集', desc: '', url: '', fName: 'CUBERANDEDMEMBER' },
   { class: '多维数据集', desc: '', url: '', fName: 'CUBESET' },
   { class: '多维数据集', desc: '', url: '', fName: 'CUBESETCOUNT' },
-  { class: '多维数据集', desc: '', url: '', fName: 'CUBEVALUE' }
+  { class: '多维数据集', desc: '', url: '', fName: 'CUBEVALUE' },
 ]
 let INFO = [
   { class: '信息', desc: '', url: '', fName: 'CELL' },
@@ -174,7 +174,7 @@ let INFO = [
   { class: '信息', desc: '', url: '', fName: 'PHONETIC' },
   { class: '信息', desc: '', url: '', fName: 'SHEET' },
   { class: '信息', desc: '', url: '', fName: 'SHEETS' },
-  { class: '信息', desc: '', url: '', fName: 'TYPE' }
+  { class: '信息', desc: '', url: '', fName: 'TYPE' },
 ]
 let DATABASE = [
   { class: '数据库', desc: '', url: '', fName: 'DAVERAGE' },
@@ -188,7 +188,7 @@ let DATABASE = [
   { class: '数据库', desc: '', url: '', fName: 'DSTDEVP' },
   { class: '数据库', desc: '', url: '', fName: 'DSUM' },
   { class: '数据库', desc: '', url: '', fName: 'DVAR' },
-  { class: '数据库', desc: '', url: '', fName: 'DVARP' }
+  { class: '数据库', desc: '', url: '', fName: 'DVARP' },
 ]
 let SEARCHREF = [
   { class: '查找与引用', desc: '', url: '', fName: 'ADDRESS' },
@@ -209,7 +209,7 @@ let SEARCHREF = [
   { class: '查找与引用', desc: '', url: '', fName: 'ROWS' },
   { class: '查找与引用', desc: '', url: '', fName: 'RTD' },
   { class: '查找与引用', desc: '', url: '', fName: 'TRANSPOSE' },
-  { class: '查找与引用', desc: '', url: '', fName: 'VLOOKUP' }
+  { class: '查找与引用', desc: '', url: '', fName: 'VLOOKUP' },
 ]
 let FINANCIAL = [
   { class: '财务', desc: '', url: '', fName: 'ACCRINT' },
@@ -266,7 +266,7 @@ let FINANCIAL = [
   { class: '财务', desc: '', url: '', fName: 'XNPV' },
   { class: '财务', desc: '', url: '', fName: 'YIELD' },
   { class: '财务', desc: '', url: '', fName: 'YIELDDISC' },
-  { class: '财务', desc: '', url: '', fName: 'YIELDMAT' }
+  { class: '财务', desc: '', url: '', fName: 'YIELDMAT' },
 ]
 let MATH = [
   { class: '数学', desc: '', url: '', fName: 'ABS' },
@@ -344,7 +344,7 @@ let MATH = [
   { class: '数学', desc: '', url: '', fName: 'SUMXMY2' },
   { class: '数学', desc: '', url: '', fName: 'TAN' },
   { class: '数学', desc: '', url: '', fName: 'TANH' },
-  { class: '数学', desc: '', url: '', fName: 'TRUNC' }
+  { class: '数学', desc: '', url: '', fName: 'TRUNC' },
 ]
 let STATISTICAL = [
   { class: '统计', desc: '', url: '', fName: 'AVEDEV' },
@@ -453,7 +453,7 @@ let STATISTICAL = [
   { class: '统计', desc: '', url: '', fName: 'VARPA' },
   { class: '统计', desc: '', url: '', fName: 'VAR.S' },
   { class: '统计', desc: '', url: '', fName: 'WEIBULL.DIST' },
-  { class: '统计', desc: '', url: '', fName: 'Z.TEST' }
+  { class: '统计', desc: '', url: '', fName: 'Z.TEST' },
 ]
 $E.DATE = DATE
 $E.ENGINEERING = ENGINEERING
